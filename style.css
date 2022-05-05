@@ -20,11 +20,11 @@ header {
 }
 
 .nav-bar ul {
-    list-style: none;
+    list-style: url("resources/nav-bar-icons.png");
     display: flex;
     justify-content: space-evenly;
-    font-size: 18px;
-    opacity: 0.5;
+    font-size: 22px;
+    opacity: 65%;
 }
 
 .nav-bar a {
@@ -33,26 +33,18 @@ header {
 }
 
 .nav-bar li {
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 .header-logo {
-    display: flex;
-    align-items: center;
-    font-size: 32px;
+    object-fit: fill;
+    opacity: 45%;
 }
 
-.header-bottom-content-wrapper {
+.header-bottom-content {
     padding-top: 120px;
     height: 250px;
     display: flex;
-}
-
-.right-cell-content {
-    height: 100%;
-    background-color: white;
-    opacity: 0.5;
-    width: 50%;
 }
 
 .left-cell-content {
@@ -83,18 +75,23 @@ header {
     justify-content: center;
     background-color: #3882F6;
     border-radius: 10px;
+    color: #E5E7EB;
 }
 
-.right-cell-content span {
+.sign-up-button a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.right-cell-content {
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
+    border: 3px solid #E5E7EB;;
 }
 
 main {
     height: 1250px;
-    background-color: white;
+    background-color: #E5E7EB;;
 }
 
 .first-container-wrapper {
@@ -142,7 +139,7 @@ main {
 
 .second-container-wrapper {
     height: 400px;
-    background-color: #E5E7EB;
+    background-color: grey;
 }
 
 .second-container-text-wrapper {
@@ -182,7 +179,7 @@ main {
     margin: 0 230px;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #E5E7EB;
 }
 
 .third-container-text {
@@ -212,7 +209,7 @@ main {
 .third-container-sign-up-button span {
     height: 42px;
     width: 150px;
-    border: 3px solid white;
+    border: 3px solid #E5E7EB;;
     display: flex;
     justify-content: center;
     align-items: center;
