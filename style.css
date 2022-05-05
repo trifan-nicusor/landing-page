@@ -86,7 +86,7 @@ header {
 .right-cell-content {
     height: 100%;
     width: 50%;
-    border: 3px solid #E5E7EB;;
+    border: 3px solid #E5E7EB;
 }
 
 main {
@@ -96,50 +96,63 @@ main {
 
 .first-container-wrapper {
     height: 550px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.frames-section-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.section {
-    width: 170px;
-    margin: 0 30px;
-    color: grey;
-    font-weight: 800;
-    text-align: center;
 }
 
 .first-container-title {
     padding: 50px 0 20px 0;
-    font-size: 24px;
-    width: 700px;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
 }
 
-.section-frame {
-    border: 6px solid #3882F6;
-    border-radius: 20px;
-    width: 100%;
-    height: 170px;
+.first-container-title h2 {
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: #164454;
+}
+
+.frames-section-wrapper ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.frames-section-wrapper li {
+    margin: 0 80px 0 80px;
+    height: 300px;
+}
+
+.frames-section-wrapper img {
+    border: 5px solid #164454;
+    width: 136px;
+    height: 136px;
+    border-radius: 10px;
+    object-fit: scale-down;
 }
 
 .section-text {
-    width: 100%;
-    margin-top: 16px;
+    color: #164454;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-text h3 {
+    margin: 6px 0 0 0;
+}
+
+.section-text span {
+    display: block;
+    font-weight: 800;
     font-size: 14px;
+    opacity: 0.8;
+    text-align: center;
 }
 
 .second-container-wrapper {
     height: 400px;
-    background-color: grey;
+    background-color: #bbbaba;
 }
 
 .second-container-text-wrapper {
@@ -206,7 +219,7 @@ main {
     font-size: 24px;
 }
 
-.third-container-sign-up-button span {
+.third-container-sign-up-button a {
     height: 42px;
     width: 150px;
     border: 3px solid #E5E7EB;;
@@ -214,20 +227,22 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
-
 .footer-text-wrapper {
-    height: 50px;
+    height: 100px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .footer-text-wrapper span{
     width: 400px;
-    height: 150px;
+    height: 100px;
     font-size: 20px;
     color: #E5E7EB;
     display: flex;
